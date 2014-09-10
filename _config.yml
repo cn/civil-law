@@ -1,0 +1,5 @@
+name: Open Data of China
+timezone: Asia/Shanghai
+markdown: kramdown
+highlight: null
+permalink: /:year-:month-:day.html

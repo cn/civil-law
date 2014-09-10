@@ -1,0 +1,47 @@
+html, body { height: 100%; }
+
+.site {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 30px 0 60px;
+}
+.meta {
+  color: #999;
+  font-size: 14px;
+  margin: 20px 0;
+  text-align: center;
+}
+.site h1, .site h2, .site h3 {
+  text-align: center;
+}
+.site h2 {
+  padding-top: 30px;
+  border-bottom: 1px solid #ddd;
+}
+.site h3 {
+  padding-top: 20px;
+}
+
+.navigation {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.navigation a {
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid rgba(0, 0, 0, 0.07);
+  padding: 6px 30px;
+  border-radius: 30px;
+  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", sans-serif;
+  color: #888;
+  margin: 0 5px 12px 0;
+}
+.navigation a:hover {
+  border-color: #666;
+}
+.home h1 {
+  border-bottom: 1px solid #bcbcbc;
+}
+.home .navigation {
+  text-align: left;
+}

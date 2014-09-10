@@ -1,0 +1,14 @@
+---
+layout: default
+title: 中华人民共和国民事诉讼法
+---
+
+<div class="yue home">
+  <h1>{{ page.title }}</h1>
+  <p>查看以下版本</p>
+  <div class="navigation">
+    {% for post in site.posts %}
+    <a href="{{ post.url | remove_first:'/' }}">{{ post.date | date:"%Y-%m-%d" }}</a>
+    {% endfor %}
+  </div>
+</div>
